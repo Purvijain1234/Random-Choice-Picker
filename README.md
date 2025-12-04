@@ -1,68 +1,76 @@
-# Random Choice Picker
+🎡 Random Choice Picker with Spin Wheel
 
-A small utility that helps you pick one or more random items from a list of choices. Useful for decisions, giveaways, classroom activities, games, and other situations where you want a fair random selection.
+A fun and interactive web app that helps you make random decisions.
+Users can enter multiple choices, pick instantly, or spin a colorful animated wheel to get a random result.
 
-Features
-- Add multiple choices quickly (comma- or newline-separated)
-- Pick one or multiple random choices
-- Option to prevent duplicate selections (if supported)
-- Minimal, easy-to-understand UI and code
+✨ Features
+📝 Enter Choices
 
-Demo / Screenshot
-- If this repository includes a web UI (index.html), open it in your browser to try the tool.
-- Consider adding a screenshot or animated GIF here to show the UI.
+Add choices separated by new lines, commas, or slashes.
 
-Getting started
+Duplicate choices are automatically removed.
 
-1) Clone the repository
-   git clone https://github.com/Purvijain1234/Random-Choice-Picker.git
-   cd Random-Choice-Picker
+⚡ Instant Random Picker
 
-2) If this is a static web app
-   - Open index.html in your browser (double-click, or use a static-server).
+Click a button and instantly get a random selection.
 
-3) If this project uses Node.js / a dev server
-   - Install dependencies:
-     npm install
-   - Start the dev server:
-     npm start
-   - Open the URL printed by the server (usually http://localhost:3000).
+🎡 Spin Wheel Generator
 
-Usage
-- Enter choices separated by commas or new lines into the input area.
-- Click the "Pick" (or equivalent) button to randomly select choices.
-- If the app supports options, set how many items to pick and whether duplicates are allowed.
+Creates a dynamic, colorful wheel based on user input.
 
-Examples
-- Choosing 1 winner for a giveaway.
-- Picking 3 activities from a list.
-- Randomly selecting a team member for a task.
+Each option becomes a slice of the wheel.
 
-Development
-- Coding style: follow the existing code style in the repository.
-- If tests exist, run them before submitting changes:
-  npm test
-- For small UI changes, create a feature branch, commit your changes, and open a Pull Request with a description of what you changed and why.
+Smooth spinning animation.
 
-Contributing
-Contributions are welcome! Please:
-1. Open an issue to discuss larger changes before implementing them.
-2. Fork the repository and create a feature branch:
-   git checkout -b feat/your-feature
-3. Commit your changes with a clear message:
-   git commit -m "feat: short description"
-4. Push to your fork and open a Pull Request.
+Result shown after the wheel stops.
 
-Be sure to include tests for new functionality where appropriate.
+🔄 Reset Option
 
-License
-This project is provided under the MIT License. See the LICENSE file for details (or add an MIT license file if one is not present).
+Clear the wheel and results to start again.
 
-Contact
-Created by Purvijain1234. For questions or feature requests, open an issue on the repository.
+📱 Responsive Design
 
-Possible next improvements
-- Add demo screenshot or GIF
-- Provide example input and expected output in a "Examples" section
-- Add accessibility improvements and keyboard controls if this is a web UI
-- Add a simple CLI mode for picking choices from the terminal
+Works on desktop and mobile screens.
+
+📁 Project Structure
+/
+|-- index.html      # Main UI structure
+|-- styles.css      # Styling and layout
+|-- script.js       # Wheel logic and random picking
+|-- README.md       # Project documentation
+
+🚀 How to Use
+
+Open index.html in your browser.
+
+Enter your list of choices.
+
+Click Pick Random for a quick selection, or
+
+Click Create Wheel to generate the spin wheel.
+
+Press Spin to rotate the wheel and reveal the selected choice.
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript (Vanilla JS)
+
+🎨 Customization
+
+You can modify:
+
+Wheel size
+
+Colors and animations
+
+Slice count and layout
+
+Spin speed
+
+📜 License
+
+This project is free and open-source. Feel free to use and modify it.
