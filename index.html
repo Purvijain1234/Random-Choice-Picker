@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Random Choice Picker</title>
+</head>
+<body>
+  <div class="app">
+    <div class="panel">
+      <h1>Random Picker 🎲</h1>
+      <p class="lead">Enter choices (one per line or comma-separated). You can pick instantly or build a spin wheel!</p>
+
+      <label>Your choices</label>
+      <textarea id="choices" placeholder="e.g. Chocolate/Vanilla/Strawberry"></textarea>
+
+      <div class="controls">
+       <div class="row">
+        <button id="addChoice">Add Example</button>
+        <button id="clear" class="ghost">Clear</button>
+       </div>
+       <div class="row" style="margin-top:10px">
+         <button id="pickRandom">Pick Random ✨</button>
+        <button id="createWheel" class="ghost">Create Wheel 🎡</button>
+       </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <strong>Result:</strong> <span id="result" class="result">—</span>
+      </div>
+    </div>
+
+    <div class="panel stage">
+      <div class="wheel-wrap">
+        <div class="pointer"></div>
+          <svg id="wheel" class="wheel" viewBox="0 0 500 500"></svg>
+            <div class="center"><button id="spinNow">SPIN</button></div>
+        </div>
+        <div style="margin-top:10px; display:flex; gap:10px;">
+          <button id="spinButton">Spin Wheel 🎯</button>
+          <button id="resetWheel" class="ghost">Reset</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
