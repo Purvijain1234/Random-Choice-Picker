@@ -28,19 +28,6 @@ Users can enter multiple choices, pick instantly, or spin a colorful animated wh
 
 ---
 
-## 📁 Project Structure
-
-/
-|-- index.html # Main UI structure
-|-- styles.css # Styling and layout
-|-- script.js # Wheel logic and random picking
-|-- README.md # Project documentation
-
-yaml
-Copy code
-
----
-
 ## 🚀 How to Use
 
 1. Open `index.html` in any modern browser.
@@ -53,9 +40,9 @@ Copy code
 
 ## 🛠️ Technologies Used
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla JS)
+- HTML
+- CSS  
+- JavaScript
 
 ---
 
